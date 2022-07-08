@@ -1,0 +1,33 @@
+Challenge :
+Link est perdu dans l'immensité du numérique. 
+La dernière fois qu'on a eu des nouveaux de lui, il nous a transmis ceci : 
+
+IP : 10.169.200.33
+port : 21
+~link
+
+À vous de le retrouver. 
+
+
+
+WU : 
+Recherche sur le port 21.
+Un port utilisé pour le FTP on en déduit donc que l'IP et le port correspondant ont un serveur FTP.
+
+On tente donc la connexion avec l'utilisateur Link : Bingo il y a un serveur. 
+Mais maintenant, il faut trouver le mot de passe.
+
+L'énoncé du chall nous donne un indice sur la worldlist a utiliser pour une attaque par brute force. 
+
+On tape ensuite la commande : 
+```
+hydra -l Link -P /usr/share/wordlists/rockyou.tar.gz ftp//10.169.200.33
+```
+On attend est bingo on a un password : iloveyou13
+connexion au ftp. 
+On fait un ls :  on voit un fichier  avec comme nom flag.txt
+On fait get flag.txt
+On ouvre le fichier on obtient une phrase qui finit par ==
+On en va sur Dcode.fr -> base64 -> on décode
+et bingo on a le flag. 
+TSSR{FTPisNotSecureEZ}

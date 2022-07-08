@@ -1,0 +1,13 @@
+Challenge :
+
+Cletus blanchie de l'argent dans un commerce aléatoire. Un coup il gagne. Un coup il perd. 
+Trouver le nom google map de l'endroit où il blanchit son argent à partir de l'image qu'il a prise en sortant dans la rue. 
+
+Fichier : Osint 2.jpg
+
+Wu : 
+Il faut prendre le nom du magasin qu'on peut voir sur la photo. On voit sur le reflet de la vitre qu'il y a la mer derrière on fait donc une recherche avec le nom 
+de l'enseigne+plage. On arrive à Bénodet dans la même rue que le casino. Le nom google map est : Casino Barrière Bénodet
+
+Flag : TSSR{Casino Barrière Bénodet}
+

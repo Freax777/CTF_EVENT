@@ -1,0 +1,13 @@
+Chall : 
+Par moment il faut savoir lire entre les lignes ! 
+Samus cache quelque chose quelques part sur le pdf. 
+Lisez bien ! 
+
+Fichier : metroid_CTFpdf
+
+WU : 
+Ici, il fallait s'intéresser aux métadonnées.
+Plus précisément avec l'outil exiftool. 
+L'intitulé du challenge a donné un indice d'importance. 
+"Lire entre les lignes"
+On pouvait voir suite à un exiftool que plusieurs données s'étaient calées dedans. Le tout regrouper former le Flag. 

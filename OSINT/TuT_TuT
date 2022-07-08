@@ -1,0 +1,24 @@
+Hors thème. 
+
+Challenge : 
+Une personne a renversé mon ami avec sa PEUGEOT !
+Trouver où il habite svp.
+Le modèle est :  PEUGEOT 208 5 Portes 1.2 VTi 12V 82 cv
+On à choper qu'une partie de la plaque : CY-620-
+FLAG : numéro-rte-rue-code postale-strasbourg
+Exemple : 2-rue-georgeperros-29000-quimper
+
+WU : 
+Évaluez chauffeur : 
+CY-620-AD
+https://evaluer-chauffeur.fr/CY-620-AD
+On peut remarquer les commentaires. 
+
+On sait qu'il utilise allo voisin et s'appelle diego.s de Strasbourg. Un commentaire de lui nous donne sont tag allo voisin : allovoisins.com/p/diegosanchez-3
+On sait maintenant qu'il s'appelle bien diego sanchez
+On fait donc une recherche en page jaune :
+Sanchez Diego strasbourg et voilà
+
+Bingo un résultat : https://www.pagesjaunes.fr/particuliers/036798972000000000
+
+FLAG : TSSR{85-rte-mittelhausbergen-67200-strasbourg}

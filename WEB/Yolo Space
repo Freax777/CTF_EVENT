@@ -1,0 +1,27 @@
+Challenge : 
+
+YoloSpace un hacker de renommer a volé notre projet de jeux vidéo : TSSRvsCedric.
+On sait qu'il possède une IP : 10.169.200.32
+
+Retrouver la clé (le flag) qui permet de retrouver notre jeu.
+
+WU :
+
+Ici on arrive sur une page web qui nous demande de nous connecter pour l'afficher. 
+Vu le formulaire de login, on en déduit que l'accès a la page est protégé par un .passwd.
+On va donc tenter un brute de force avec Hydra et le pseudo YoloSpace.
+
+Pour ça on utilise la commande : 
+
+Hydra -l YoloSpace -P /usr/share/wordlists/rockyou.txt 10.169.200.32 http-get
+
+Mot de passe : ihatehackers
+
+On arrive sur une page avec : 
+
+FLAG : TSSR{YouAreH4ckerBikini}
+
+NOTE :
+
+Le jeu yolospace hacker est un jeux "CTF" sur le thème de la cybersécurité, il est très réaliste et vous apprend les bases de la cybersécurité. 
+Je vous invite à l'essayer pour apprendre quelques trucs.
